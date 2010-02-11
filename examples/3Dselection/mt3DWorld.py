@@ -6,6 +6,8 @@ import random
 # IF you are declaring the __main__ here
 from reactive3DObject import *
 
+# Creates objects (3D Worlds) on which can be drawn a 3D figure (which are also objects-- see comment above) 
+# allowing those objects to be selected when a touch over them happens.
 class MT3DWorld(MTWidget):
     def __init__(self, **kwargs):
     	super(MT3DWorld, self).__init__(**kwargs)
